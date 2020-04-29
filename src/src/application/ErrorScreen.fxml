@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane minHeight="200.0" minWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="application.ErrorScreenController">
+   <children>
+      <Button fx:id="exitButton" layoutX="278.0" layoutY="144.0" mnemonicParsing="false" onAction="#exitProgram" text="Exit" />
+      <Text layoutX="100.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sorry! This SSN is not associated with a managerial status. Please exit the application." textAlignment="CENTER" wrappingWidth="400.0" />
+   </children>
+</AnchorPane>

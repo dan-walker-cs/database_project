@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ManagerScreenController">
+   <children>
+      <TextField fx:id="ssnTextField" layoutX="126.0" layoutY="194.0" />
+      <Button fx:id="submitButton" layoutX="384.0" layoutY="194.0" mnemonicParsing="false" onAction="#verifySSN" text="Submit" />
+      <Button fx:id="clearButton" layoutX="478.0" layoutY="194.0" mnemonicParsing="false" onAction="#clearTextField" text="Clear" />
+      <Text layoutX="74.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SSN:" />
+      <Text layoutX="50.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="In order to confirm your management status, please enter your social security number below. Then hit submit!" textAlignment="CENTER" wrappingWidth="500.0" />
+      <MenuBar prefHeight="32.0" prefWidth="600.0" />
+   </children>
+   <effect>
+      <Bloom threshold="1.0" />
+   </effect>
+</AnchorPane>
